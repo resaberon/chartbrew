@@ -18,6 +18,11 @@ module.exports = {
     client_secret: process.env.CB_GOOGLE_CLIENT_SECRET,
     redirect_url: "/google-auth",
   },
+  quickreach: {
+    client_id: process.env.CB_QUICKREACH_CLIENT_ID,
+    client_secret: process.env.CB_QUICKREACH_CLIENT_SECRET,
+    redirect_url: "/quickreach-auth",
+  },
   teamRestricted: process.env.CB_RESTRICT_TEAMS,
   chartbrewMainAPI: "https://api.chartbrew.com",
 };
